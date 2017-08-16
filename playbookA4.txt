@@ -7,3 +7,6 @@ OneWayBinding With Model
 6.create the instance of the model in the component.ts 
 7. bindit using {{}} to the component =>template/templateUrl 
 8. run your application with "npm start"
+
+
+TwowayDatabinding with Model, *ngFor
