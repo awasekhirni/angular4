@@ -10,3 +10,11 @@ OneWayBinding With Model
 
 
 TwowayDatabinding with Model, *ngFor
+1.A4 quickstart seed
+2. construct a model.ts
+3. create a corresponding component.ts 
+4. import formsModule in the component.ts 
+5. register the component in appmodule.ts => import formsModule in imports decorator property of @ngModule
+6. in the view of the component use [(ngModel)]="object.property"
+7. bind it to the parent component 
+8.run your application with "npm start"
