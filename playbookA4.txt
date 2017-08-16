@@ -1,0 +1,9 @@
+OneWayBinding With Model 
+1. A4 QuickStart Seed 
+2. Construct a model.ts
+3. create a component.ts 
+4. register the component in appmodule.ts => declarations and import 
+5. bind the component.ts "Selector" to the parent component 
+6.create the instance of the model in the component.ts 
+7. bindit using {{}} to the component =>template/templateUrl 
+8. run your application with "npm start"
