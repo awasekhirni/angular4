@@ -33,3 +33,19 @@ Services in Angular 4
   8. Register the service and the component in appmodule.ts , @NgModule => providers:[sharedService] and declarations for components. 
   9. bind the component to the parent/root component 
   10. run your application with "npm start" 
+
+IMPORTANT NOTE 
+@Component => if moduleId included => templateUrls are absolute URLS 
+
+SPA Routes for Angular 4 
+1.Identify a list of components created 
+2. create main.routes.ts => import Routes,RouterModule from '@angular/router' 
+3. export const routes => define path, pathMath, redirectTo and individual routing path for each component 
+4. register the routes to RouterModule using @NgModule({imports,exports}) => RouterModule.forRoot or RouterModule.forChild, export class AppRouting 
+5. App.component.ts => templateUrl => appmain.html => routerLink and routerOutlet defined to match to the router paths outlined in the main.routes.ts file 
+6. Register Routes in app.module.ts  and associate components 
+7. run your application with "npm start"
+
+
+
+
