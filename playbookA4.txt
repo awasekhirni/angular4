@@ -1,3 +1,10 @@
+Angular 4x Code Play Session Done at Harman-Samsung from 16 August-19 August 2017.
+Copyright 2017 TPRI- SYED AWASE KHIRNI 
+Please acknowledge TPRI and Dr. Syed Awase Khirni if you are using this.
+awasekhirni@gmail.com | sak@territorialprescience.com | 9035433124.
+Please get in touch with us directly for any code driven trainings from UI to AI. 
+Brokers Please excuse. We also offer training in Middle East, Singapore, Malaysia, Indonesia, South Africa, Americas.
+
 OneWayBinding With Model 
 1. A4 QuickStart Seed 
 2. Construct a model.ts
@@ -46,6 +53,18 @@ SPA Routes for Angular 4
 6. Register Routes in app.module.ts  and associate components 
 7. run your application with "npm start"
 
+Angular 4x Enabling Production Mode.
+Enabling Production Mode in Angular4x is fairly simple. Follow these steps. 
+1. main.ts => import import {enableProdMode} from '@angular/core';
+2.add enableProdMode()
+
+Your final main.ts file should look like this:
+
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {enableProdMode} from '@angular/core';
+import { AppModule } from './app/app.module';
+enableProdMode();
+platformBrowserDynamic().bootstrapModule(AppModule);
 
 
 
