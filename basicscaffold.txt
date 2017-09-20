@@ -1,0 +1,26 @@
+git clone https://github.com/angular/quickstart  demoproj
+cd demoproj
+check for the current version angular => package.json
+npm install --save 
+//check for node_modules folder and succcess installation message 
+npm start //=> to kick start your angular application. 
+
+//VSCODE Extensions for Angular Development 
+VSCODE 
+ 1. HTML5 boiler plate
+ 2. path intellisense
+ 3. Angular V4 TypeScript snippet 
+ 4.Emmet extensions
+ 5.Auto Import 
+ 6.TSLint
+ 7.Beautify 
+ 8.npm 
+ 9.path autocomplete
+ 10.relative path 
+ 11.View in Browser 
+ 12.File Icons 
+ 13. VSCode great icons
+ 
+ 
+ 
+ 
